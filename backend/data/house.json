@@ -1,0 +1,25 @@
+{
+  "house": {
+    "id": "望京-3室1厅",
+    "name": "望京 · 3室1厅",
+    "members": ["小林", "周然", "陈默", "林夏"]
+  },
+  "expenses": [
+    {"id": 1, "name": "燃气费", "person": "周然", "date": "09-08", "total": 128, "share": 32, "category": "水电燃气", "status": "pending"},
+    {"id": 2, "name": "厨房纸巾", "person": "小林", "date": "09-06", "total": 42, "share": 10.5, "category": "日常采购", "status": "settled"}
+  ],
+  "duties": [
+    {"id": 1, "name": "厨房 + 餐桌", "person": "周然", "day": "周一", "done": true},
+    {"id": 2, "name": "客厅 + 阳台", "person": "小林", "day": "周三", "done": false},
+    {"id": 3, "name": "卫生间", "person": "陈默", "day": "周五", "done": false}
+  ],
+  "items": [
+    {"id": 1, "name": "洗衣液", "unit": "1.5L", "stock": 20, "threshold": 30, "lastBy": "陈默"},
+    {"id": 2, "name": "垃圾袋", "unit": "中号 / 45只", "stock": 12, "threshold": 25, "lastBy": "周然"},
+    {"id": 3, "name": "抽纸", "unit": "24包", "stock": 65, "threshold": 30, "lastBy": "小林"}
+  ],
+  "rules": [
+    {"id": 1, "title": "公共区域使用后随手复原", "desc": "厨房台面、客厅茶几使用完毕后，当天收拾干净。", "confirmedBy": ["小林", "周然", "陈默", "林夏"]},
+    {"id": 2, "title": "晚上 11 点后保持安静", "desc": "需要打电话或看剧时戴耳机，互相照顾作息。", "confirmedBy": ["小林", "周然", "陈默", "林夏"]}
+  ]
+}
