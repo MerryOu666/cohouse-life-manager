@@ -1,0 +1,9 @@
+{
+  "name": "cohouse-life-manager-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "合租生活管家后端 API",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
